@@ -30,7 +30,7 @@ Mais emoção nos Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&
 
 ## Instalação Manual
 1. Vá em **Módulos** e use o link abaixo: 
-Use this: https://raw.githubusercontent.com/brunocalado/10plus-v2-moremagicitems/main/module.json
+Use this: https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
 
 # Como Usar
 

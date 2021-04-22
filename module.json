@@ -30,7 +30,7 @@
       }      
     ],
   "system": "dnd5e",
-  "url": "https://github.com/brunocalado/10plus-v2-moremagicitems",
-  "manifest": "https://raw.githubusercontent.com/brunocalado/10plus-v2-moremagicitems/main/module.json",  
-  "download": "https://codeload.github.com/brunocalado/10plus-v2-moremagicitems/zip/main"               
+  "url": "https://github.com/brunocalado/rpgnextcriticos",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",  
+  "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main"               
 }
