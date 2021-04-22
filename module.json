@@ -1,0 +1,36 @@
+{   
+   "name": "rpgnextcriticos",   
+   "title": "RPG Next - Críticos",
+   "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",   
+   "author": "Mestre Digital",
+   "version": "0.0.1",
+   "minimumCoreVersion": "0.7.9",
+   "compatibleCoreVersion":"0.7.9",
+   "packs": [
+      {
+        "name": "acertocritico",
+        "label": "RPG Next - Acerto Crítico",
+        "path": "packs/acertocriticorpgnext.db",
+        "entity": "JournalEntry",
+        "module": "rpgnextcriticos"
+      },
+      {
+        "name": "errocritico",
+        "label": "RPG Next - Erro Crítico",
+        "path": "packs/errocriticorpgnext.db",
+        "entity": "JournalEntry",
+        "module": "rpgnextcriticos"
+      },
+      {
+        "name": "rpgnext-tabelas",
+        "label": "RPG Next - Tabelas",
+        "path": "packs/tabelasrpgnext.db",
+        "entity": "RollTable",
+        "module": "rpgnextcriticos"
+      }      
+    ],
+  "system": "dnd5e",
+  "url": "https://github.com/brunocalado/10plus-v2-moremagicitems",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/10plus-v2-moremagicitems/main/module.json",  
+  "download": "https://codeload.github.com/brunocalado/10plus-v2-moremagicitems/zip/main"               
+}
