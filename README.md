@@ -9,13 +9,18 @@ Chegou o APP das CARTAS CRÍTICAS para D&D 5e! Sua versão contém 52 Cartas de 
 
 Mais emoção nos Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e. Utilize toda vez que um acerto crítico ou falha crítica sair em um ataque. Basta clicar no botão da carta correspondente e aplicar o resultado!
 
-<p align="center">
+<table>
+<thead>
+  <tr>
+    <th><p align="center">
   <img width="300" src="images/guide/acerto.jpg">
-</p>
-
-<p align="center">
+</p></th>
+    <th><p align="center">
   <img width="300" src="images/guide/falha.jpg">
-</p>
+</p></th>
+  </tr>
+</thead>
+</table>
 
 # Instalação
 
@@ -45,7 +50,7 @@ Use this: https://raw.githubusercontent.com/brunocalado/10plus-v2-moremagicitems
 4. Cole o texto de acerto no local indicado.
 5. Cole o texto de falha no local indicado.
 <p align="center">
-  <img width="300" src="images/guide/critdecoratorguide.jpg">
+  <img width="400" src="images/guide/critdecoratorguide.jpg">
 </p>
 
 ### Texto para o Acerto Crítico
