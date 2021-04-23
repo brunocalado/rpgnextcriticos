@@ -34,9 +34,29 @@ Use this: https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/mod
 
 # Como Usar
 
-## Métodos Rudimentares
+## Método Simples
 - Abra o compêndio com a tabela e role.
-- Você pode criar um atalho para cada tabela na barra de atalhos.
+
+## Método Barra de Atalhos
+Você pode criar um atalho para cada tabela na barra de atalhos.
+1. Importe as duas tabelas para o mundo.
+2. Arraste a tabela para barra de atalhos. Lembre de dar permissão para seus jogadores verem as tabelas.
+3. Você pode colocar um ícone para deixar fácil de localizar. Tem 2 ícones incluídos cole os endereços nas macros criadas na barra de atalhos.
+- modules/rpgnextcriticos/images/icons/ok.svg
+- modules/rpgnextcriticos/images/icons/nok.svg
+
+<table>
+<thead>
+  <tr>
+    <th><p align="center">
+  <img width="50" src="images/icons/ok.png">
+</p></th>
+    <th><p align="center">
+  <img width="50" src="images/icons/nok.png">
+</p></th>
+  </tr>
+</thead>
+</table>
 
 ## Método - Botão de Rolagem
 1. Instale e ative o módulo [Rolltable Buttons](https://github.com/RaySSharma/fvtt-rolltable-buttons)

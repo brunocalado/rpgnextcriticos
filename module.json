@@ -3,7 +3,7 @@
    "title": "RPG Next - Críticos",
    "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",   
    "author": "Mestre Digital",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "minimumCoreVersion": "0.7.9",
    "compatibleCoreVersion":"0.7.9",
    "packs": [
@@ -21,6 +21,13 @@
         "entity": "JournalEntry",
         "module": "rpgnextcriticos"
       },
+      {
+        "name": "instrucoesrpgnext",
+        "label": "RPG Next - Instruções",
+        "path": "packs/instrucoesrpgnext.db",
+        "entity": "JournalEntry",
+        "module": "rpgnextcriticos"
+      },      
       {
         "name": "rpgnext-tabelas",
         "label": "RPG Next - Tabelas",
