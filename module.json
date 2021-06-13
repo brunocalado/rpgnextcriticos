@@ -1,43 +1,59 @@
-{   
-   "name": "rpgnextcriticos",   
-   "title": "RPG Next - Críticos",
-   "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",   
-   "author": "Mestre Digital",
-   "version": "0.0.2",
-   "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"0.7.9",
-   "packs": [
-      {
-        "name": "acertocritico",
-        "label": "RPG Next - Acerto Crítico",
-        "path": "packs/acertocriticorpgnext.db",
-        "entity": "JournalEntry",
-        "module": "rpgnextcriticos"
-      },
-      {
-        "name": "errocritico",
-        "label": "RPG Next - Erro Crítico",
-        "path": "packs/errocriticorpgnext.db",
-        "entity": "JournalEntry",
-        "module": "rpgnextcriticos"
-      },
-      {
-        "name": "instrucoesrpgnext",
-        "label": "RPG Next - Instruções",
-        "path": "packs/instrucoesrpgnext.db",
-        "entity": "JournalEntry",
-        "module": "rpgnextcriticos"
-      },      
-      {
-        "name": "rpgnext-tabelas",
-        "label": "RPG Next - Tabelas",
-        "path": "packs/tabelasrpgnext.db",
-        "entity": "RollTable",
-        "module": "rpgnextcriticos"
-      }      
-    ],
-  "system": "dnd5e",
+{
+  "name": "rpgnextcriticos",
+  "title": "RPG Next - Críticos",
+  "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",
+  "author": "Mestre Digital",
+  "authors": [],
   "url": "https://github.com/brunocalado/rpgnextcriticos",
-  "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",  
-  "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main"               
+  "flags": {},
+  "version": "0.0.3",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "1.0.0",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "acertocritico",
+      "label": "RPG Next - Acerto Crítico",
+      "path": "packs/acertocriticorpgnext.db",
+      "entity": "JournalEntry",
+      "module": "rpgnextcriticos",
+      "private": false
+    },
+    {
+      "name": "errocritico",
+      "label": "RPG Next - Erro Crítico",
+      "path": "packs/errocriticorpgnext.db",
+      "entity": "JournalEntry",
+      "module": "rpgnextcriticos",
+      "private": false
+    },
+    {
+      "name": "instrucoesrpgnext",
+      "label": "RPG Next - Instruções",
+      "path": "packs/instrucoesrpgnext.db",
+      "entity": "JournalEntry",
+      "module": "rpgnextcriticos",
+      "private": false
+    },
+    {
+      "name": "rpgnext-tabelas",
+      "label": "RPG Next - Tabelas",
+      "path": "packs/tabelasrpgnext.db",
+      "entity": "RollTable",
+      "module": "rpgnextcriticos",
+      "private": false
+    }
+  ],
+  "system": [
+    "dnd5e"
+  ],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",
+  "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main",
+  "protected": false,
+  "coreTranslation": false
 }
