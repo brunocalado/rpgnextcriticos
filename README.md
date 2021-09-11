@@ -37,63 +37,8 @@ Use this: https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/mod
 ## Método Simples
 - Abra o compêndio com a tabela e role.
 
-## Método Barra de Atalhos
-Você pode criar um atalho para cada tabela na barra de atalhos.
-1. Importe as duas tabelas para o mundo.
-2. Arraste a tabela para barra de atalhos. Lembre de dar permissão para seus jogadores verem as tabelas.
-3. Você pode colocar um ícone para deixar fácil de localizar. Tem 2 ícones incluídos cole os endereços nas macros criadas na barra de atalhos.
-- modules/rpgnextcriticos/images/icons/ok.svg
-- modules/rpgnextcriticos/images/icons/nok.svg
-
-<table>
-<thead>
-  <tr>
-    <th><p align="center">
-  <img width="50" src="images/icons/ok.png">
-</p></th>
-    <th><p align="center">
-  <img width="50" src="images/icons/nok.png">
-</p></th>
-  </tr>
-</thead>
-</table>
-
-## Método - Botão de Rolagem
-1. Instale e ative o módulo [Rolltable Buttons](https://github.com/RaySSharma/fvtt-rolltable-buttons)
-2. Importe o compêndio com as tabelas.
-3. Atalho rápido no chat.
-
-## Método - Automático
-1. Instale e ative o módulo [Crits Decorator](https://gitlab.com/Nat-Faeeria/crit-decorator)
-2. Vá em configurações do módulo
-3. Marque as caixas conforme a imagem.
-4. Cole o texto de acerto no local indicado.
-5. Cole o texto de falha no local indicado.
-<p align="center">
-  <img width="400" src="images/guide/critdecoratorguide.jpg">
-</p>
-
-### Texto para o Acerto Crítico
-```js
-async (total)=> { 
-  let list_compendium = await game.packs.filter(p=>p.entity=='RollTable');
-  let table = await list_compendium.filter( p=>p.metadata.label=='RPG Next - Tabelas' )[0].getContent();
-  table[0].draw();   
-  let chatData = { user: game.user.id, content: `<h1>Sucesso Crítico!!!</h1>`, speaker: ChatMessage.getSpeaker()};
-  ChatMessage.create(chatData, {});
-}
-```
-
-### Texto para a Falha Crítica
-```js
-async (total)=> { 
-  let list_compendium = await game.packs.filter(p=>p.entity=='RollTable');
-  let table = await list_compendium.filter( p=>p.metadata.label=='RPG Next - Tabelas' )[0].getContent();
-  table[1].draw();   
-  let chatData = { user: game.user.id, content: `<h1>Falha Crítica!!!</h1>`, speaker: ChatMessage.getSpeaker()};
-  ChatMessage.create(chatData, {});
-}
-```
+## Método Macros
+Importe as macros desse módulo e as execute.
 
 # Mudanças
 Podem ver alterações nas versões em [CHANGELOG](CHANGELOG.md)
