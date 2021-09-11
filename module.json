@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   "flags": {},
-  "version": "0.0.3",
+  "version": "0.0.4",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "1.0.0",
   "scripts": [],
@@ -45,7 +45,15 @@
       "entity": "RollTable",
       "module": "rpgnextcriticos",
       "private": false
-    }
+    },
+    {
+      "name": "rpg-next-macros",
+      "label": "RPG Next - Macros",
+      "path": "packs/rpg-next-macros.db",
+      "entity": "Macro",
+      "module": "rpgnextcriticos",
+      "private": false
+    }    
   ],
   "system": [
     "dnd5e"
@@ -55,5 +63,6 @@
   "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",
   "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main",
   "protected": false,
-  "coreTranslation": false
+  "coreTranslation": false,
+  "library": false
 }
