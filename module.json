@@ -6,9 +6,9 @@
   "authors": [],
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   "flags": {},
-  "version": "0.0.4",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "1.0.0",
+  "compatibleCoreVersion": "9",
   "scripts": [],
   "esmodules": [],
   "styles": [],
@@ -53,9 +53,9 @@
       "entity": "Macro",
       "module": "rpgnextcriticos",
       "private": false
-    }    
+    }
   ],
-  "system": [
+  "systems": [
     "dnd5e"
   ],
   "dependencies": [],
