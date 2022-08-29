@@ -1,19 +1,32 @@
 {
-  "name": "rpgnextcriticos",
+  "id": "rpgnextcriticos",
   "title": "RPG Next - Críticos",
   "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",
-  "author": "Mestre Digital",
-  "authors": [],
+  "authors": [{
+    "name": "Mestre Digital",
+    "url": "https://www.youtube.com/c/MestreDigital"
+  }],
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   "flags": {},
-  "version": "0.0.5",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "9",
+  "version": "0.0.7",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },  
   "scripts": [],
   "esmodules": [],
   "styles": [],
   "languages": [],
   "packs": [
+    {
+      "name": "rpg-next-baralhos",
+      "label": "RPG Next - Baralhos",
+      "path": "packs/rpg-next-baralhos.db",
+      "entity": "Cards",
+      "module": "rpgnextcriticos",
+      "private": false
+    },  
     {
       "name": "acertocritico",
       "label": "RPG Next - Acerto Crítico",
@@ -55,10 +68,11 @@
       "private": false
     }
   ],
-  "systems": [
-    "dnd5e"
-  ],
-  "dependencies": [],
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e"
+    }]
+  },  
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",
   "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main",

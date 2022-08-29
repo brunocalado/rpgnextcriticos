@@ -1,3 +1,14 @@
+# 0.0.7
+- v10
+- tem baralhos agora
+- macros para baralhos
+
+# 0.0.6
+Docs
+
+# 0.0.5
+v9
+
 # 0.0.4
 macros e fix
 

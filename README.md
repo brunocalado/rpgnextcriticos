@@ -34,11 +34,7 @@ Use this: https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/mod
 
 # Como Usar
 
-## Método Simples
-- Abra o compêndio com a tabela e role.
-
-## Método Macros
-Importe as macros desse módulo e as execute.
+Leia a documentação que está nos registros em compêndio dentro do módulo.
 
 # Mudanças
 Podem ver alterações nas versões em [CHANGELOG](CHANGELOG.md)
