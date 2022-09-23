@@ -6,13 +6,14 @@
     "name": "Mestre Digital",
     "url": "https://www.youtube.com/c/MestreDigital"
   }],
+  
   "url": "https://github.com/brunocalado/rpgnextcriticos",
+  
   "flags": {},
-  "version": "0.0.7",
+  "version": "0.0.8",
   "compatibility": {
     "minimum": "10",
-    "verified": "10",
-    "maximum": "10"
+    "verified": "10"
   },  
   "scripts": [],
   "esmodules": [],
@@ -23,7 +24,7 @@
       "name": "rpg-next-baralhos",
       "label": "RPG Next - Baralhos",
       "path": "packs/rpg-next-baralhos.db",
-      "entity": "Cards",
+      "type": "Cards",
       "module": "rpgnextcriticos",
       "private": false
     },  
@@ -31,7 +32,7 @@
       "name": "acertocritico",
       "label": "RPG Next - Acerto Crítico",
       "path": "packs/acertocriticorpgnext.db",
-      "entity": "JournalEntry",
+      "type": "JournalEntry",
       "module": "rpgnextcriticos",
       "private": false
     },
@@ -39,7 +40,7 @@
       "name": "errocritico",
       "label": "RPG Next - Erro Crítico",
       "path": "packs/errocriticorpgnext.db",
-      "entity": "JournalEntry",
+      "type": "JournalEntry",
       "module": "rpgnextcriticos",
       "private": false
     },
@@ -47,7 +48,7 @@
       "name": "instrucoesrpgnext",
       "label": "RPG Next - Instruções",
       "path": "packs/instrucoesrpgnext.db",
-      "entity": "JournalEntry",
+      "type": "JournalEntry",
       "module": "rpgnextcriticos",
       "private": false
     },
@@ -55,7 +56,7 @@
       "name": "rpgnext-tabelas",
       "label": "RPG Next - Tabelas",
       "path": "packs/tabelasrpgnext.db",
-      "entity": "RollTable",
+      "type": "RollTable",
       "module": "rpgnextcriticos",
       "private": false
     },
@@ -63,7 +64,7 @@
       "name": "rpg-next-macros",
       "label": "RPG Next - Macros",
       "path": "packs/rpg-next-macros.db",
-      "entity": "Macro",
+      "type": "Macro",
       "module": "rpgnextcriticos",
       "private": false
     }
