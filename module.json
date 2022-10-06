@@ -10,7 +10,7 @@
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   
   "flags": {},
-  "version": "0.0.8",
+  "version": "0.0.9",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -69,15 +69,14 @@
       "private": false
     }
   ],
+  
   "relationships": {
     "systems": [{
       "id": "dnd5e"
     }]
   },  
+  
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",
-  "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+  "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main"
 }

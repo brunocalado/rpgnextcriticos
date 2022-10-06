@@ -1,3 +1,6 @@
+# 0.0.9
+- macro fix
+
 # 0.0.7
 - v10
 - tem baralhos agora
