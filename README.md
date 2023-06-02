@@ -43,3 +43,6 @@ Podem ver alterações nas versões em [CHANGELOG](CHANGELOG.md)
 These items are from the **RPG Next**. They were publish with consent from **Rafael Quarenta E Sete** (https://www.facebook.com/rbl047).
 
 You can also get them from: https://www.rpgnext.com.br/aplicativo/app-das-cartas-criticas-para-dnd-5e/
+
+# Mestre Digital
+About this module creator: https://sites.google.com/view/mestredigitalmodules
