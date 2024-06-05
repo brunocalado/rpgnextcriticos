@@ -1,15 +1,8 @@
-2024/06/05-11:49:33.291 4768 Recovering log #8
-2024/06/05-11:49:33.293 4768 Delete type=0 #8
-2024/06/05-11:49:33.294 4768 Delete type=3 #6
-2024/06/05-14:38:46.502 d98 Level-0 table #13: started
-2024/06/05-14:38:46.503 d98 Level-0 table #13: 3012 bytes OK
-2024/06/05-14:38:46.504 d98 Delete type=0 #11
-2024/06/05-14:38:46.523 d98 Manual compaction at level-0 from '!macros!KeVqPuWyzyNc7HTV' @ 72057594037927935 : 1 .. '!macros!vQpQ3TRiQ3Zo14Jv' @ 0 : 0; will stop at (end)
-2024/06/05-14:38:46.523 d98 Manual compaction at level-1 from '!macros!KeVqPuWyzyNc7HTV' @ 72057594037927935 : 1 .. '!macros!vQpQ3TRiQ3Zo14Jv' @ 0 : 0; will stop at '!macros!vQpQ3TRiQ3Zo14Jv' @ 8 : 1
-2024/06/05-14:38:46.523 d98 Compacting 1@1 + 1@2 files
-2024/06/05-14:38:46.525 d98 Generated table #14@1: 4 keys, 3012 bytes
-2024/06/05-14:38:46.525 d98 Compacted 1@1 + 1@2 files => 3012 bytes
-2024/06/05-14:38:46.526 d98 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/06/05-14:38:46.526 d98 Delete type=2 #5
-2024/06/05-14:38:46.526 d98 Delete type=2 #13
-2024/06/05-14:38:46.545 d98 Manual compaction at level-1 from '!macros!vQpQ3TRiQ3Zo14Jv' @ 8 : 1 .. '!macros!vQpQ3TRiQ3Zo14Jv' @ 0 : 0; will stop at (end)
+2024/06/05-14:50:47.385 4768 Recovering log #29
+2024/06/05-14:50:47.388 4768 Delete type=0 #29
+2024/06/05-14:50:47.388 4768 Delete type=3 #27
+2024/06/05-14:54:44.175 d98 Level-0 table #34: started
+2024/06/05-14:54:44.175 d98 Level-0 table #34: 0 bytes OK
+2024/06/05-14:54:44.177 d98 Delete type=0 #32
+2024/06/05-14:54:44.179 d98 Manual compaction at level-0 from '!macros!KeVqPuWyzyNc7HTV' @ 72057594037927935 : 1 .. '!macros!vQpQ3TRiQ3Zo14Jv' @ 0 : 0; will stop at (end)
+2024/06/05-14:54:44.179 d98 Manual compaction at level-1 from '!macros!KeVqPuWyzyNc7HTV' @ 72057594037927935 : 1 .. '!macros!vQpQ3TRiQ3Zo14Jv' @ 0 : 0; will stop at (end)

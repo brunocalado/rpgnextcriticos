@@ -10,7 +10,7 @@
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   
   "flags": {},
-  "version": "0.1.1",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -69,7 +69,24 @@
       "private": false
     }
   ],
-  
+
+  "packFolders": [
+    {
+      "name": "RPG Next - Críticos",
+      "sorting": "a",
+      "color": "#9f1d1d",
+      "packs": [
+        "rpg-next-baralhos",
+        "acertocritico",
+        "errocritico",
+        "instrucoesrpgnext",
+        "rpgnext-tabelas",
+        "rpg-next-macros"
+      ],
+      "folders": []
+    }
+  ],
+    
   "relationships": {
     "systems": [{
       "id": "dnd5e"

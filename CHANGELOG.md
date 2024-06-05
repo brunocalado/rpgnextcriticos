@@ -1,3 +1,6 @@
+# 0.1.2
+Compendions agrupados em uma pasta.
+
 # 0.1.1
 v12
 
