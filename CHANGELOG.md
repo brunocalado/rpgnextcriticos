@@ -1,3 +1,8 @@
+# 0.1.3
+- funciona com o mod de carta 3d
+- Docs
+- melhoria visual
+
 # 0.1.2
 Compendions agrupados em uma pasta.
 
