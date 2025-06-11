@@ -25,23 +25,16 @@ async function drawFromDeck(deckName) {
   await deck.updateEmbeddedDocuments('Card', updates);
   
   const result = cardsDrawn[0].faces[0].img;
-  // Cria a mensagem com imagem e botão clicável
-  const chatMessage = await ChatMessage.create({
-    content: `<img src="${result}"><br><button class="show-image-btn" data-image="${result}" style="background: #a83232; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer;">🔍 Ver Carta Ampliada</button>`
+  
+  // Agora usando a função do módulo para criar o botão
+  const imageButton = window.createImageButton ? 
+    window.createImageButton(result) : 
+    `<button class="show-image-btn" data-image="${result}" style="background: #4b9cd3; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; margin-top: 5px;">🔍 Ver Imagem Ampliada</button>`;
+  
+  await ChatMessage.create({
+    content: `<img src="${result}"><br>${imageButton}`
   });
   
-  //const popout = new ImagePopout(result).render(true);
-  //popout.shareImage();
-  // Usando hook do Foundry para garantir que o event listener funcione
-  Hooks.once('renderChatMessage', (message, html) => {
-    if (message.id === chatMessage.id) {
-      html.find('.show-image-btn').click(function(e) {
-        e.preventDefault();
-        const imagePath = $(this).data('image');
-        showImage(imagePath);
-      });
-    }
-  });  
   showImage(result);
   
   await deck.recall({ chatNotification: false });

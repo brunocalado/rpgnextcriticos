@@ -1,3 +1,6 @@
+# 0.1.8
+- arruma botão não abrindo imagens
+
 # 0.1.5
 - v13
 - mostra as cartas do chat

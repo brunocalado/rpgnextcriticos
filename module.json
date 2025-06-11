@@ -10,13 +10,13 @@
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   
   "flags": {},
-  "version": "0.1.6",
+  "version": "0.1.8",
   "compatibility": {
     "minimum": "11",
     "verified": "13"
   },  
   "scripts": [],
-  "esmodules": [],
+  "esmodules": ["scripts/image-viewer.js"],
   "styles": [],
   "languages": [],
   "packs": [
