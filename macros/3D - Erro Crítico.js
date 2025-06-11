@@ -15,7 +15,6 @@ async function drawFromTable(tableName) {
   }
   const output = await table.roll();
   const result = output.results[0].img;
-  await ChatMessage.create({content: `<img src="${result}">`});
   
   cardImage=result;
 
