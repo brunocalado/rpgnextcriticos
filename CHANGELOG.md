@@ -1,3 +1,7 @@
+# 0.1.5
+- v13
+- mostra as cartas do chat
+
 # 0.1.3
 - funciona com o mod de carta 3d
 - Docs

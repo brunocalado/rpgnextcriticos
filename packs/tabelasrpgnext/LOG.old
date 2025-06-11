@@ -1,22 +1,8 @@
-2025/05/06-18:03:43.369 3e80 Recovering log #162
-2025/05/06-18:03:43.372 3e80 Delete type=0 #162
-2025/05/06-18:03:43.373 3e80 Delete type=3 #160
-2025/05/06-18:05:01.543 56b8 Level-0 table #166: started
-2025/05/06-18:05:01.545 56b8 Level-0 table #166: 17254 bytes OK
-2025/05/06-18:05:01.546 56b8 Delete type=0 #164
-2025/05/06-18:05:01.547 56b8 Manual compaction at level-0 from '!tables!LqvSk8IJSZdRtvH5' @ 72057594037927935 : 1 .. '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 0 : 0; will stop at '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 427 : 0
-2025/05/06-18:05:01.547 56b8 Compacting 2@0 + 0@1 files
-2025/05/06-18:05:01.548 56b8 Generated table #167@0: 106 keys, 17254 bytes
-2025/05/06-18:05:01.548 56b8 Compacted 2@0 + 0@1 files => 17254 bytes
-2025/05/06-18:05:01.550 56b8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/06-18:05:01.550 56b8 Delete type=2 #161
-2025/05/06-18:05:01.550 56b8 Delete type=2 #166
-2025/05/06-18:05:01.550 56b8 Manual compaction at level-0 from '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 427 : 0 .. '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 0 : 0; will stop at (end)
-2025/05/06-18:05:01.550 56b8 Manual compaction at level-1 from '!tables!LqvSk8IJSZdRtvH5' @ 72057594037927935 : 1 .. '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 0 : 0; will stop at '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 1215 : 1
-2025/05/06-18:05:01.550 56b8 Compacting 1@1 + 1@2 files
-2025/05/06-18:05:01.552 56b8 Generated table #168@1: 106 keys, 17254 bytes
-2025/05/06-18:05:01.552 56b8 Compacted 1@1 + 1@2 files => 17254 bytes
-2025/05/06-18:05:01.552 56b8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/06-18:05:01.553 56b8 Delete type=2 #157
-2025/05/06-18:05:01.553 56b8 Delete type=2 #167
-2025/05/06-18:05:01.553 56b8 Manual compaction at level-1 from '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 1215 : 1 .. '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 0 : 0; will stop at (end)
+2025/06/02-10:10:06.711 3dd8 Recovering log #174
+2025/06/02-10:10:06.714 3dd8 Delete type=0 #174
+2025/06/02-10:10:06.714 3dd8 Delete type=3 #173
+2025/06/02-10:22:33.192 2dac Level-0 table #178: started
+2025/06/02-10:22:33.192 2dac Level-0 table #178: 0 bytes OK
+2025/06/02-10:22:33.193 2dac Delete type=0 #176
+2025/06/02-10:22:33.195 2dac Manual compaction at level-0 from '!tables!LqvSk8IJSZdRtvH5' @ 72057594037927935 : 1 .. '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 0 : 0; will stop at (end)
+2025/06/02-10:22:33.195 2dac Manual compaction at level-1 from '!tables!LqvSk8IJSZdRtvH5' @ 72057594037927935 : 1 .. '!tables.results!PcQwPSpB6OqsqOkM.za3csb5YWPLruH9v' @ 0 : 0; will stop at (end)
