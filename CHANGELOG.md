@@ -1,3 +1,9 @@
+# 0.2.0
+- **Novo Visual 3D e Animações:** As cartas agora aparecem em 3D, animadas e sincronizadas na tela para todos os jogadores ao mesmo tempo! (Requer o módulo *Epic 3D Card Reveal*).
+- **Botão Flutuante (Novo):** Adicionado um botão flutuante direto na tela do jogo para os jogadores puxarem as cartas de acerto ou erro crítico de forma rápida, sem precisar configurar macros na barra.
+- **Mais Simples de Usar e Compartilhar:** O sistema agora exibe a carta e envia o resultado direto no chat para todo mundo ver de forma automática.
+- **Limpeza e Otimização:** Removemos a necessidade de compêndios e macros complexas antigas. O módulo está muito mais leve, moderno e direto ao ponto.
+
 # 0.1.8
 - arruma botão não abrindo imagens
 

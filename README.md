@@ -10,10 +10,8 @@ Chegou o APP das CARTAS CRÍTICAS para D&D 5e! Sua versão contém 52 Cartas de 
 
 Mais emoção nos Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e. Utilize toda vez que um acerto crítico ou falha crítica sair em um ataque. Basta clicar no botão da carta correspondente e aplicar o resultado!
 
-<div align="center">
-  <img width="300" src="docs/card-preview.webp">
-  <img width="300" src="docs/cardback-preview.webp">
-</div>
+![Card Preview](docs/card-preview.webp)
+![Card Back Preview](docs/cardback-preview.webp)
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-red?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/mestredigital)
 
