@@ -2,6 +2,7 @@
   "id": "rpgnextcriticos",
   "title": "RPG Next - Críticos",
   "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",
+  
   "authors": [{
     "name": "Mestre Digital",
     "url": "https://www.youtube.com/c/MestreDigital"
@@ -10,15 +11,16 @@
   "url": "https://github.com/brunocalado/rpgnextcriticos",
   
   "flags": {},
-  "version": "0.1.8",
+  "version": "0.2.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14"
   },  
   "scripts": [],
   "esmodules": ["scripts/image-viewer.js"],
   "styles": [],
   "languages": [],
+  
   "packs": [
     {
       "name": "rpg-next-baralhos",

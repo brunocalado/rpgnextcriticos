@@ -1,4 +1,5 @@
-# APP das Cartas Críticas para D&D 5e
+# Cartas Críticas do RPG Next para D&D 5e
+
 Está jogando D&D e tirou um 20 no ataque e não sabe o que fazer além de aplicar o dano crítico?
 
 Ou acabou tirando “1” num ataque e não sabe o que fazer além de dizer que foi um erro?
@@ -22,27 +23,36 @@ Mais emoção nos Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&
 </thead>
 </table>
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-red?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/mestredigital)
+
 # Instalação
 
 ## Instalação pelo Foundry VTT
+
 1. Vá na interface de adminstração do Foundry VTT
 2. Vá na guia Módulos. Procure por RPG Next. Instale.
 
 ## Instalação Manual
+
 1. Vá em **Módulos** e use o link abaixo: 
-Use this: https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
+Use this: 
+
+```
+https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
+```
 
 # Como Usar
 
 Leia a documentação que está nos registros em compêndio dentro do módulo.
 
 # Mudanças
+
 Podem ver alterações nas versões em [CHANGELOG](CHANGELOG.md)
 
-# License
+# Credits and License
+
+- Released under the [LICENSE](LICENSE).
+
 These items are from the **RPG Next**. They were publish with consent from **Rafael Quarenta E Sete** (https://www.facebook.com/rbl047).
 
 You can also get them from: https://www.rpgnext.com.br/aplicativo/app-das-cartas-criticas-para-dnd-5e/
-
-# Mestre Digital
-About this module creator: https://sites.google.com/view/mestredigitalmodules
