@@ -43,7 +43,16 @@ https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
 
 # Como Usar
 
-Leia a documentação que está nos registros em compêndio dentro do módulo.
+A ativação é feita por uma API global, que pode ser chamada de qualquer macro, módulo ou do sistema:
+
+```js
+RPGNext.Critical("sucesso"); // sorteia e revela uma carta de Acerto Crítico
+RPGNext.Critical("falha");   // sorteia e revela uma carta de Falha Crítica
+```
+
+Também aceita os apelidos `"acerto"` e `"erro"` (não diferencia maiúsculas/minúsculas). A carta é sorteada aleatoriamente (pode repetir) e exibida para todos os jogadores pelo módulo [Epic 3D Card Reveal](https://github.com/brunocalado/epic-3d-card-reveal) (pré-requisito), que também cuida da mensagem de chat. Aparência (brilho, som, estilo do reveal) é configurada nas opções do próprio Epic 3D Card Reveal.
+
+Leia também a documentação que está nos registros em compêndio dentro do módulo.
 
 # Mudanças
 

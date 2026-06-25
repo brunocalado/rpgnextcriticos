@@ -18,19 +18,11 @@
   },  
   
   "scripts": [],
-  "esmodules": ["scripts/image-viewer.js"],
+  "esmodules": ["scripts/main.js"],
   "styles": [],
   "languages": [],
   
   "packs": [
-    {
-      "name": "rpg-next-baralhos",
-      "label": "RPG Next - Baralhos",
-      "path": "packs/rpg-next-baralhos",
-      "type": "Cards",
-      "module": "rpgnextcriticos",
-      "private": false
-    },  
     {
       "name": "instrucoesrpgnext",
       "label": "RPG Next - Instruções",
@@ -55,11 +47,7 @@
       "sorting": "a",
       "color": "#9f1d1d",
       "packs": [
-        "rpg-next-baralhos",
-        "acertocritico",
-        "errocritico",
         "instrucoesrpgnext",
-        "rpgnext-tabelas",
         "rpg-next-macros"
       ],
       "folders": []

@@ -1,8 +1,5 @@
-2025/06/11-15:25:06.300 1ba0 Recovering log #179
-2025/06/11-15:25:06.303 1ba0 Delete type=0 #179
-2025/06/11-15:25:06.303 1ba0 Delete type=3 #177
-2025/06/11-16:13:12.736 3fe4 Level-0 table #184: started
-2025/06/11-16:13:12.736 3fe4 Level-0 table #184: 0 bytes OK
-2025/06/11-16:13:12.737 3fe4 Delete type=0 #182
-2025/06/11-16:13:12.741 3fe4 Manual compaction at level-0 from '!journal!zuIrRMHAOocWGeLu' @ 72057594037927935 : 1 .. '!journal.pages!zuIrRMHAOocWGeLu.XlaQoWK82jjLz9W0' @ 0 : 0; will stop at (end)
-2025/06/11-16:13:12.741 3fe4 Manual compaction at level-1 from '!journal!zuIrRMHAOocWGeLu' @ 72057594037927935 : 1 .. '!journal.pages!zuIrRMHAOocWGeLu.XlaQoWK82jjLz9W0' @ 0 : 0; will stop at (end)
+2026/06/25-14:50:18.066 c2c Log #187: 0 ops saved to Table #188 OK
+2026/06/25-14:50:18.066 c2c Archiving C:\Users\Bruno\Documents\VTT\fvttdev\Data\modules\rpgnextcriticos\packs\instrucoesrpgnext/000187.log: OK
+2026/06/25-14:50:18.066 c2c Table #166: 4 entries OK
+2026/06/25-14:50:18.070 c2c Archiving C:\Users\Bruno\Documents\VTT\fvttdev\Data\modules\rpgnextcriticos\packs\instrucoesrpgnext/MANIFEST-000185: OK
+2026/06/25-14:50:18.073 c2c **** Repaired leveldb C:\Users\Bruno\Documents\VTT\fvttdev\Data\modules\rpgnextcriticos\packs\instrucoesrpgnext; recovered 1 files; 2238 bytes. Some data may have been lost. ****
