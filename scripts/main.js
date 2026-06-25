@@ -2,7 +2,8 @@
 // Public API for RPG Next - Críticos. Delegates all visual presentation (the 3D
 // card reveal and its chat message) to the epic-3d-card-reveal module.
 
-import { MODULE_ID, EPIC_CARDS_MODULE_ID, CARDS_PER_DECK, CRITICAL_TYPES } from "./constants.js";
+import { MODULE_ID, EPIC_CARDS_MODULE_ID, CARDS_PER_DECK, CRITICAL_TYPES, SETTINGS } from "./constants.js";
+import { refreshFloatingButton } from "./floating-button.js";
 
 /**
  * Maps every accepted public-API argument to a canonical {@link CRITICAL_TYPES} key.
@@ -48,12 +49,42 @@ function showCritical(type) {
 }
 
 /**
- * Expose the public global API requested by the module spec: `RPGNext.Critical(...)`.
- * Registered at `init` so the namespace exists early; the body runs on demand, well
- * after `ready`, when EpicCards and the card assets are available.
+ * Expose the public global API requested by the module spec: `RPGNext.Critical(...)`,
+ * and register the settings backing the players' floating critical panel.
+ * Registered at `init` so the namespace exists early; the API body runs on demand,
+ * well after `ready`, when EpicCards and the card assets are available.
  */
 Hooks.once("init", () => {
   globalThis.RPGNext ??= {};
   globalThis.RPGNext.Critical = showCritical;
   game.modules.get(MODULE_ID).api = globalThis.RPGNext;
+
+  // GM-only world toggle for the players' floating critical panel (on by default).
+  // World scope means only the GM sees/edits it in the settings menu; its onChange
+  // fires on every client, so toggling it instantly shows/hides the panel for players.
+  game.settings.register(MODULE_ID, SETTINGS.SHOW_FLOATING_BUTTON, {
+    name: "Botões flutuantes de críticos",
+    hint: "Exibe o painel flutuante de Acerto Crítico e Erro Crítico para os jogadores. Não aparece para o Mestre.",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+    onChange: () => refreshFloatingButton()
+  });
+
+  // Per-client persisted panel position (hidden from the settings menu).
+  game.settings.register(MODULE_ID, SETTINGS.FLOATING_BUTTON_POSITION, {
+    scope: "client",
+    config: false,
+    type: Object,
+    default: { left: 20, top: 120 }
+  });
+});
+
+/**
+ * Build the players' floating panel once the world and settings are ready. The
+ * panel never appears for the GM; {@link refreshFloatingButton} enforces this.
+ */
+Hooks.once("ready", () => {
+  refreshFloatingButton();
 });

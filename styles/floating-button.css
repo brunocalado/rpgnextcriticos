@@ -1,0 +1,92 @@
+/* floating-button.css
+   The panel is appended to <body>, outside any Application window, so it carries
+   the module id as a class (`.rpgnextcriticos`) to stay within the module's CSS
+   scope (CLAUDE.md §12). Every rule is nested under that scope, max 3 levels deep. */
+
+.rpgnextcriticos {
+  &#rpgnextcriticos-floating {
+    --rpgnextcriticos-success: #2e7d32;
+    --rpgnextcriticos-success-hover: #388e3c;
+    --rpgnextcriticos-failure: #b71c1c;
+    --rpgnextcriticos-failure-hover: #d32f2f;
+
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    border: 1px solid var(--color-border-dark, #000);
+    border-radius: 6px;
+    background: var(--color-bg, #1a1a1a);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .rpgnextcriticos-fb-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 4px 8px;
+    cursor: grab;
+    color: var(--color-text-light-highlight, #f0f0e0);
+    background: rgba(0, 0, 0, 0.35);
+    border-bottom: 1px solid var(--color-border-dark, #000);
+    font-size: var(--font-size-12, 12px);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    i {
+      opacity: 0.7;
+    }
+  }
+
+  .rpgnextcriticos-fb-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px;
+  }
+
+  .rpgnextcriticos-fb-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: var(--font-size-13, 13px);
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+
+    &.success {
+      background: var(--rpgnextcriticos-success);
+    }
+
+    &.failure {
+      background: var(--rpgnextcriticos-failure);
+    }
+
+    &.success:hover {
+      background: var(--rpgnextcriticos-success-hover);
+      transform: translateY(-1px);
+    }
+
+    &.failure:hover {
+      background: var(--rpgnextcriticos-failure-hover);
+      transform: translateY(-1px);
+    }
+
+    i {
+      font-size: 1.1em;
+    }
+  }
+}
