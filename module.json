@@ -1,21 +1,22 @@
 {
   "id": "rpgnextcriticos",
   "title": "RPG Next - Críticos",
+  "version": "0.2.0",  
   "description": "Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&D 5e do RPG Next",
   
-  "authors": [{
-    "name": "Mestre Digital",
-    "url": "https://www.youtube.com/c/MestreDigital"
-  }],
-  
-  "url": "https://github.com/brunocalado/rpgnextcriticos",
-  
-  "flags": {},
-  "version": "0.2.0",
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "http://youtube.com/@mestredigital",
+      "flags": {}
+    }
+  ],
+
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },  
+  
   "scripts": [],
   "esmodules": ["scripts/image-viewer.js"],
   "styles": [],
@@ -25,47 +26,23 @@
     {
       "name": "rpg-next-baralhos",
       "label": "RPG Next - Baralhos",
-      "path": "packs/rpg-next-baralhos.db",
+      "path": "packs/rpg-next-baralhos",
       "type": "Cards",
       "module": "rpgnextcriticos",
       "private": false
     },  
     {
-      "name": "acertocritico",
-      "label": "RPG Next - Acerto Crítico",
-      "path": "packs/acertocriticorpgnext.db",
-      "type": "JournalEntry",
-      "module": "rpgnextcriticos",
-      "private": false
-    },
-    {
-      "name": "errocritico",
-      "label": "RPG Next - Erro Crítico",
-      "path": "packs/errocriticorpgnext.db",
-      "type": "JournalEntry",
-      "module": "rpgnextcriticos",
-      "private": false
-    },
-    {
       "name": "instrucoesrpgnext",
       "label": "RPG Next - Instruções",
-      "path": "packs/instrucoesrpgnext.db",
+      "path": "packs/instrucoesrpgnext",
       "type": "JournalEntry",
-      "module": "rpgnextcriticos",
-      "private": false
-    },
-    {
-      "name": "rpgnext-tabelas",
-      "label": "RPG Next - Tabelas",
-      "path": "packs/tabelasrpgnext.db",
-      "type": "RollTable",
       "module": "rpgnextcriticos",
       "private": false
     },
     {
       "name": "rpg-next-macros",
       "label": "RPG Next - Macros",
-      "path": "packs/rpg-next-macros.db",
+      "path": "packs/rpg-next-macros",
       "type": "Macro",
       "module": "rpgnextcriticos",
       "private": false
@@ -100,6 +77,8 @@
   },  
   
   "socket": false,
+
+  "url": "https://github.com/brunocalado/rpgnextcriticos",
   "manifest": "https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json",
   "download": "https://codeload.github.com/brunocalado/rpgnextcriticos/zip/main"
 }
