@@ -1,5 +1,7 @@
-2026/06/25-14:50:18.088 c2c Log #189: 0 ops saved to Table #192 OK
-2026/06/25-14:50:18.088 c2c Archiving C:\Users\Bruno\Documents\VTT\fvttdev\Data\modules\rpgnextcriticos\packs\rpg-next-macros/000189.log: OK
-2026/06/25-14:50:18.088 c2c Table #191: 6 entries OK
-2026/06/25-14:50:18.091 c2c Archiving C:\Users\Bruno\Documents\VTT\fvttdev\Data\modules\rpgnextcriticos\packs\rpg-next-macros/MANIFEST-000187: OK
-2026/06/25-14:50:18.094 c2c **** Repaired leveldb C:\Users\Bruno\Documents\VTT\fvttdev\Data\modules\rpgnextcriticos\packs\rpg-next-macros; recovered 1 files; 6122 bytes. Some data may have been lost. ****
+2026/06/25-15:25:05.019 6e58 Recovering log #199
+2026/06/25-15:25:05.022 6e58 Delete type=0 #199
+2026/06/25-15:25:05.023 6e58 Delete type=3 #198
+2026/06/25-15:25:47.228 6f58 Level-0 table #203: started
+2026/06/25-15:25:47.228 6f58 Level-0 table #203: 0 bytes OK
+2026/06/25-15:25:47.229 6f58 Delete type=0 #201
+2026/06/25-15:25:47.231 6f58 Manual compaction at level-0 from '!macros!DbVkcje9gSTQXHj6' @ 72057594037927935 : 1 .. '!macros!unauAdNyT0hnjU6x' @ 0 : 0; will stop at (end)

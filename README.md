@@ -43,14 +43,45 @@ https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
 
 # Como Usar
 
-A ativação é feita por uma API global, que pode ser chamada de qualquer macro, módulo ou do sistema:
+> **Pré-requisito:** o módulo [Epic 3D Card Reveal](https://github.com/brunocalado/epic-3d-card-reveal) precisa estar **instalado e ativo** — é ele quem exibe a carta em 3D e posta a mensagem no chat.
+
+A ativação é feita por uma **API global**, que pode ser chamada de qualquer macro, módulo ou do sistema:
 
 ```js
 RPGNext.Critical("sucesso"); // sorteia e revela uma carta de Acerto Crítico
 RPGNext.Critical("falha");   // sorteia e revela uma carta de Falha Crítica
 ```
 
-Também aceita os apelidos `"acerto"` e `"erro"` (não diferencia maiúsculas/minúsculas). A carta é sorteada aleatoriamente (pode repetir) e exibida para todos os jogadores pelo módulo [Epic 3D Card Reveal](https://github.com/brunocalado/epic-3d-card-reveal) (pré-requisito), que também cuida da mensagem de chat. Aparência (brilho, som, estilo do reveal) é configurada nas opções do próprio Epic 3D Card Reveal.
+Também aceita os apelidos `"acerto"` e `"erro"`, e não diferencia maiúsculas/minúsculas. A carta é sorteada aleatoriamente (pode repetir) e exibida para todos os jogadores pelo Epic 3D Card Reveal, que também cuida da mensagem de chat. A aparência (brilho, som, estilo do reveal) é configurada nas opções do próprio Epic 3D Card Reveal.
+
+## Macros prontas
+
+O módulo já traz as macros no compêndio **RPG Next - Macros**:
+
+1. Abra a aba **Compêndios** (ícone de livro na barra lateral).
+2. Abra **RPG Next - Macros** e arraste as macros desejadas para a sua **barra de atalhos (hotbar)**.
+3. Clique na macro toda vez que sair um acerto crítico ou uma falha crítica.
+
+## Criar a sua própria macro
+
+Se preferir criar a sua:
+
+1. Clique com o botão direito em um espaço vazio da **hotbar** → **Create Macro** (ou clique no `+`).
+2. Em **Type**, escolha **Script**.
+3. Cole **uma** das linhas abaixo no corpo da macro:
+
+   - Acerto crítico:
+     ```js
+     RPGNext.Critical("sucesso");
+     ```
+   - Falha crítica:
+     ```js
+     RPGNext.Critical("falha");
+     ```
+
+4. Dê um nome, salve e clique na macro para usar.
+
+> Dica: por ser uma API global, você também pode chamar `RPGNext.Critical("sucesso")` a partir de outros módulos, de gatilhos automáticos (ex.: ao detectar um 20 natural) ou direto no console (F12).
 
 Leia também a documentação que está nos registros em compêndio dentro do módulo.
 
