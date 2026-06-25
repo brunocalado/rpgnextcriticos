@@ -44,6 +44,14 @@ RPGNext.Critical("falha");   // sorteia e revela uma carta de Falha Crítica
 
 Também aceita os apelidos `"acerto"` e `"erro"`, e não diferencia maiúsculas/minúsculas. A carta é sorteada aleatoriamente (pode repetir) e exibida para todos os jogadores pelo Epic 3D Card Reveal, que também cuida da mensagem de chat. A aparência (brilho, som, estilo do reveal) é configurada nas opções do próprio Epic 3D Card Reveal.
 
+## Botão Flutuante
+
+A forma mais fácil de usar o módulo agora é através do **botão flutuante** que aparece na tela dos jogadores. 
+
+- Toda vez que sair um acerto crítico ou uma falha crítica, basta o jogador clicar no botão correspondente na tela. A carta será sorteada e a animação 3D aparecerá na tela de todos automaticamente!
+- O painel é arrastável: os jogadores podem movê-lo para onde acharem melhor na tela.
+- **Mestres:** O botão não aparece para o mestre. Se quiser desativar o botão flutuante para os jogadores, basta ir nas **Configurações de Módulos (Settings -> Configure Settings)** do próprio Foundry, buscar pelo "Cartas Críticas do RPG Next para D&D 5e" e desmarcar a exibição do botão.
+
 ## Macros prontas
 
 O módulo já traz as macros no compêndio **RPG Next - Macros**:
@@ -52,7 +60,7 @@ O módulo já traz as macros no compêndio **RPG Next - Macros**:
 2. Abra **RPG Next - Macros** e arraste as macros desejadas para a sua **barra de atalhos (hotbar)**.
 3. Clique na macro toda vez que sair um acerto crítico ou uma falha crítica.
 
-## Criar a sua própria macro
+### Criar a sua própria macro
 
 Se preferir criar a sua:
 
