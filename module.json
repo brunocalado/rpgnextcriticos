@@ -92,6 +92,10 @@
   "relationships": {
     "systems": [{
       "id": "dnd5e"
+    }],
+    "requires": [{
+      "id": "epic-3d-card-reveal",
+      "manifest": "https://raw.githubusercontent.com/brunocalado/epic-3d-card-reveal/main/module.json"
     }]
   },  
   
