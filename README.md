@@ -15,22 +15,6 @@ Mais emoção nos Acertos Críticos e Falhas Críticas na sua mesa de RPG com D&
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-red?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/mestredigital)
 
-# Instalação
-
-## Instalação pelo Foundry VTT
-
-1. Vá na interface de adminstração do Foundry VTT
-2. Vá na guia Módulos. Procure por RPG Next. Instale.
-
-## Instalação Manual
-
-1. Vá em **Módulos** e use o link abaixo: 
-Use this: 
-
-```
-https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
-```
-
 # Como Usar
 
 > **Pré-requisito:** o módulo [Epic 3D Card Reveal](https://github.com/brunocalado/epic-3d-card-reveal) precisa estar **instalado e ativo** — é ele quem exibe a carta em 3D e posta a mensagem no chat.
@@ -82,6 +66,22 @@ Se preferir criar a sua:
 > Dica: por ser uma API global, você também pode chamar `RPGNext.Critical("sucesso")` a partir de outros módulos, de gatilhos automáticos (ex.: ao detectar um 20 natural) ou direto no console (F12).
 
 Leia também a documentação que está nos registros em compêndio dentro do módulo.
+
+# Instalação
+
+## Instalação pelo Foundry VTT
+
+1. Vá na interface de adminstração do Foundry VTT
+2. Vá na guia Módulos. Procure por RPG Next. Instale.
+
+## Instalação Manual
+
+1. Vá em **Módulos** e use o link abaixo: 
+Use this: 
+
+```
+https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
+```
 
 # Mudanças
 
